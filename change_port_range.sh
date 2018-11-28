@@ -31,6 +31,7 @@ if [ "$answer" == "y" ]; then
     echo net.ipv4.ip_local_reserved_ports = 31313,10000-29999 >> /etc/sysctl.conf
     /sbin/sysctl -p /etc/sysctl.conf 
     echo_blue "Done"
+    exit
 else
     echo_blue "告辞！"
     exit
