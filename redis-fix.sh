@@ -1,7 +1,6 @@
 # 一个修复redis集群中 handshake和fail的脚本
 # 来源  https://github.com/antirez/redis/issues/2965
 
-
 #echo "usage: host port"
 nodes_addrs=$(redis-cli -h $1 -p $2 cluster nodes|grep -v handshake| awk '{print $2}')
 echo $nodes_addrs
