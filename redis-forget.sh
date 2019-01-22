@@ -11,8 +11,6 @@ else
   exit 2 
 fi
 
-
-
 nodes_addrs=$(redis-cli -h $1 -p $2 cluster nodes| awk '{print $2}')
 echo -e "获取到集群Node节点信息：\n$nodes_addrs\n"
 for addr in ${nodes_addrs[@]}; do
