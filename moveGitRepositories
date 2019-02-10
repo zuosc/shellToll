@@ -1,0 +1,20 @@
+# eg: sh moveGitRepositories.sh 仓库名
+
+
+cd /tmp/
+
+git clone http://git.xxxxx.com/xxxxx/$1.git
+
+cd $1
+
+for remote in `git branch -r`; do git branch --track ${remote#origin/} $remote; done
+
+git fetch --all
+
+git  remote add target  https://git.xxxxxxx.com/xxxxxxx/$1.git
+
+git push target --all
+
+cd ..
+
+rm -rf $1
