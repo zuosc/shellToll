@@ -3,8 +3,8 @@
 
 set -e
 
-findfile=""
 name="修改下"
+findfile=""
 if [ ! -n "$1" ]
 then
         echo "寻找最新的jar包...";
@@ -40,9 +40,24 @@ then
         echo "创建新软连接完成 "
 	if [ ! "$(docker ps -q -f name=$name)" ]; then
                 echo "容器 $name 不存在，创建该容器..."
-                docker run -d --net=host --name=$name -v /data/app/$name:/data docker.17usoft.com/cache/java:8u111-jdk-alpine /bin/ash -c "cd /data;\
-                java -XX:+ExplicitGCInvokesConcurrent -XX:+UseG1GC -XX:+UnlockExperimentalVMOptions -Xms2g -Xmx2g -XX:G1MaxNewSizePercent=70 \
-                -XX:InitiatingHeapOccupancyPercent=30 -XX:SurvivorRatio=7 -XX:ParallelGCThreads=25 -jar $name.jar"
+                docker run -d --net=host --name=$name -v /data/app/$name:/data docker.17usoft.com/cache/openjdk:11.0.1-jdk /bin/bash -c "cd /data;\
+				java \
+				-Xms4G \
+				-Xmx4G \
+				-server \
+				-XX:+UseNUMA \
+				-XX:+UnlockExperimentalVMOptions \
+				-XX:+UseZGC \
+				-XX:+AggressiveOpts \
+				-Dvertx.disableMetrics=true \
+				-Dvertx.disableH2c=true \
+				-Dvertx.disableWebsockets=true \
+				-Dvertx.flashPolicyHandler=false \
+				-Dvertx.threadChecks=false \
+				-Dvertx.disableContextTimings=true \
+				-Dvertx.disableTCCL=true \
+				-Dvertx.disableHttpHeadersValidation=true \
+				-jar  $name.jar"
                 echo "启动容器 $name 成功！"
         else
                 echo "容器 $name 已经存在，重启容器..."
@@ -53,3 +68,4 @@ then
 else
         echo "执行结束..."
 fi
+
