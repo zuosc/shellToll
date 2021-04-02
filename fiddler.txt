@@ -1,2 +1,3 @@
 # Derbysoft_DEV.list
 host-suffix, derbysoft-test.com, Derbysoft_DEV
+host-suffix, ds-marriott-test.com, Derbysoft_UAT
