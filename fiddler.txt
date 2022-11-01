@@ -6,3 +6,4 @@ host-suffix, static.ds-marriott.com, static
 host-suffix, ticket.sstm.org.cn, sstm
 host-suffix, api.mi-sit.swiftcore.com, sit
 host-suffix, api.middleware.marriott.com.cn, middleware
+host-suffix, wechat.api.marriott.com.cn, wechat
