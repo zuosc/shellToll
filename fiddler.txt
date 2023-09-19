@@ -10,4 +10,5 @@ host-suffix, wechat.api.marriott.com.cn, wechat
 host-suffix, isungent.cn, isungent
 host-suffix, app.isungent.cn, app_isungent
 host-suffix, jjhapp.sipac.gov.cn, jjhapp
+host-suffix, xapic.byteslife.com, xapic_byteslife
 
