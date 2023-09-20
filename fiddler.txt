@@ -8,7 +8,6 @@ host-suffix, api.mi-sit.swiftcore.com, sit
 host-suffix, api.middleware.marriott.com.cn, middleware
 host-suffix, wechat.api.marriott.com.cn, wechat
 host-suffix, isungent.cn, isungent
-host-suffix, app.isungent.cn, app_isungent
-host-suffix, jjhapp.sipac.gov.cn, jjhapp
-host-suffix, xapic.byteslife.com, xapic_byteslife
+host-suffix, sipac.gov.cn, sipac
+host-suffix, byteslife.com, byteslife
 
