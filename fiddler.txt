@@ -1,13 +1,14 @@
 # Derbysoft_DEV.list
-host-suffix, derbysoft-test.com, Derbysoft_DEV
-host-suffix, ds-marriott-test.com, Derbysoft_UAT
-host-suffix, ds-marriott.com, Derbysoft
-host-suffix, static.ds-marriott.com, static
-host-suffix, ticket.sstm.org.cn, sstm
-host-suffix, api.mi-sit.swiftcore.com, sit
-host-suffix, api.middleware.marriott.com.cn, middleware
-host-suffix, wechat.api.marriott.com.cn, wechat
-host-suffix, isungent.cn, isungent
-host-suffix, sipac.gov.cn, sipac
-host-suffix, byteslife.com, byteslife
+DOMAIN-SUFFIX, derbysoft-test.com
+DOMAIN-SUFFIX, ds-marriott-test.com
+DOMAIN-SUFFIX, ds-marriott.com
+DOMAIN-SUFFIX, static.ds-marriott.com
+DOMAIN-SUFFIX, ticket.sstm.org.cn
+DOMAIN-SUFFIX, api.mi-sit.swiftcore.com
+DOMAIN-SUFFIX, api.middleware.marriott.com.cn
+DOMAIN-SUFFIX, wechat.api.marriott.com.cn
+DOMAIN-SUFFIX, isungent.cn
+DOMAIN-SUFFIX, sipac.gov.cn
+DOMAIN-SUFFIX, byteslife.com
+DOMAIN-KEYWORD, byteslife.com
 
