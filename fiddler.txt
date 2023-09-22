@@ -1,14 +1,5 @@
 # Derbysoft_DEV.list
-DOMAIN-SUFFIX, derbysoft-test.com
-DOMAIN-SUFFIX, ds-marriott-test.com
-DOMAIN-SUFFIX, ds-marriott.com
-DOMAIN-SUFFIX, static.ds-marriott.com
-DOMAIN-SUFFIX, ticket.sstm.org.cn
-DOMAIN-SUFFIX, api.mi-sit.swiftcore.com
-DOMAIN-SUFFIX, api.middleware.marriott.com.cn
-DOMAIN-SUFFIX, wechat.api.marriott.com.cn
-DOMAIN-SUFFIX, isungent.cn
-DOMAIN-SUFFIX, sipac.gov.cn
-DOMAIN-SUFFIX, byteslife.com
-DOMAIN-KEYWORD, byteslife.com
+DOMAIN-SUFFIX, isungent.cn, isungent
+DOMAIN-SUFFIX, sipac.gov.cn, sipac
+DOMAIN-SUFFIX, byteslife.com, byteslife
 
