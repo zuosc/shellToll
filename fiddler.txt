@@ -2,4 +2,5 @@
 DOMAIN-SUFFIX, isungent.cn, isungent
 DOMAIN-SUFFIX, sipac.gov.cn, sipac
 DOMAIN-SUFFIX, byteslife.com, byteslife
+DOMAIN-SUFFIX, systoon.com, systoon
 
