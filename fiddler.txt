@@ -4,3 +4,4 @@ DOMAIN-SUFFIX, sipac.gov.cn, sipac
 DOMAIN-SUFFIX, byteslife.com, byteslife
 DOMAIN-SUFFIX, systoon.com, systoon
 DOMAIN-SUFFIX, dpark.com.cn, dpark
+DOMAIN-SUFFIX, globalph.cn, ph
