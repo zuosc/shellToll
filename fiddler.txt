@@ -5,3 +5,4 @@ DOMAIN-SUFFIX, byteslife.com, byteslife
 DOMAIN-SUFFIX, systoon.com, systoon
 DOMAIN-SUFFIX, dpark.com.cn, dpark
 DOMAIN-SUFFIX, globalph.cn, ph
+DOMAIN-SUFFIX, starcharge.com, starcharge
