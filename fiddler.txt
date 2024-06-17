@@ -6,3 +6,4 @@ DOMAIN-SUFFIX, systoon.com, systoon
 DOMAIN-SUFFIX, dpark.com.cn, dpark
 DOMAIN-SUFFIX, globalph.cn, ph
 DOMAIN-SUFFIX, starcharge.com, starcharge
+DOMAIN-SUFFIX, boc.cn, boc
